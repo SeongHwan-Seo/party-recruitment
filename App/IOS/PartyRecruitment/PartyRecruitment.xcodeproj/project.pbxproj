@@ -7,65 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CFD2AF68282D2FE3005CB25E /* PartyRecruitmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2AF67282D2FE3005CB25E /* PartyRecruitmentApp.swift */; };
-		CFD2AF6A282D2FE3005CB25E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2AF69282D2FE3005CB25E /* ContentView.swift */; };
-		CFD2AF6C282D2FE5005CB25E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD2AF6B282D2FE5005CB25E /* Assets.xcassets */; };
-		CFD2AF6F282D2FE5005CB25E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD2AF6E282D2FE5005CB25E /* Preview Assets.xcassets */; };
-		CFD2AF76282D2FF2005CB25E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2AF75282D2FF2005CB25E /* LoginView.swift */; };
+		CFC52184283264C600541F6D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CFC52183283264C600541F6D /* FirebaseAuth */; };
+		CFC52186283264C600541F6D /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CFC52185283264C600541F6D /* FirebaseAuthCombine-Community */; };
+		CFC52188283264C600541F6D /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = CFC52187283264C600541F6D /* FirebaseCrashlytics */; };
+		CFC5218A283264C600541F6D /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = CFC52189283264C600541F6D /* FirebaseDatabase */; };
+		CFC5218C283264C600541F6D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CFC5218B283264C600541F6D /* FirebaseFirestore */; };
+		CFC5218E283264C600541F6D /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = CFC5218D283264C600541F6D /* FirebaseMessaging */; };
+		CFC52190283264C600541F6D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CFC5218F283264C600541F6D /* FirebaseStorage */; };
+		CFC521922832746600541F6D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC521912832746600541F6D /* LoginView.swift */; };
+		CFDFF1E2283138600019CDB3 /* PartyRecruitmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFF1E1283138600019CDB3 /* PartyRecruitmentApp.swift */; };
+		CFDFF1E4283138600019CDB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFF1E3283138600019CDB3 /* ContentView.swift */; };
+		CFDFF1E6283138610019CDB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDFF1E5283138610019CDB3 /* Assets.xcassets */; };
+		CFDFF1E9283138610019CDB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDFF1E8283138610019CDB3 /* Preview Assets.xcassets */; };
+		CFDFF1F12831395C0019CDB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFDFF1F02831395C0019CDB3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CFD2AF64282D2FE3005CB25E /* PartyRecruitment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyRecruitment.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFD2AF67282D2FE3005CB25E /* PartyRecruitmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyRecruitmentApp.swift; sourceTree = "<group>"; };
-		CFD2AF69282D2FE3005CB25E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CFD2AF6B282D2FE5005CB25E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CFD2AF6E282D2FE5005CB25E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CFD2AF75282D2FF2005CB25E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CFC521912832746600541F6D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CFDFF1DE283138600019CDB3 /* PartyRecruitment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyRecruitment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDFF1E1283138600019CDB3 /* PartyRecruitmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyRecruitmentApp.swift; sourceTree = "<group>"; };
+		CFDFF1E3283138600019CDB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFDFF1E5283138610019CDB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFDFF1E8283138610019CDB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFDFF1F02831395C0019CDB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CFD2AF61282D2FE3005CB25E /* Frameworks */ = {
+		CFDFF1DB283138600019CDB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC5218E283264C600541F6D /* FirebaseMessaging in Frameworks */,
+				CFC52188283264C600541F6D /* FirebaseCrashlytics in Frameworks */,
+				CFC52184283264C600541F6D /* FirebaseAuth in Frameworks */,
+				CFC5218A283264C600541F6D /* FirebaseDatabase in Frameworks */,
+				CFC52190283264C600541F6D /* FirebaseStorage in Frameworks */,
+				CFC5218C283264C600541F6D /* FirebaseFirestore in Frameworks */,
+				CFC52186283264C600541F6D /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CFD2AF5B282D2FE3005CB25E = {
+		CFC521932832746D00541F6D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CFD2AF66282D2FE3005CB25E /* PartyRecruitment */,
-				CFD2AF65282D2FE3005CB25E /* Products */,
+				CFC521912832746600541F6D /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFDFF1D5283138600019CDB3 = {
+			isa = PBXGroup;
+			children = (
+				CFDFF1E0283138600019CDB3 /* PartyRecruitment */,
+				CFDFF1DF283138600019CDB3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CFD2AF65282D2FE3005CB25E /* Products */ = {
+		CFDFF1DF283138600019CDB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFD2AF64282D2FE3005CB25E /* PartyRecruitment.app */,
+				CFDFF1DE283138600019CDB3 /* PartyRecruitment.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CFD2AF66282D2FE3005CB25E /* PartyRecruitment */ = {
+		CFDFF1E0283138600019CDB3 /* PartyRecruitment */ = {
 			isa = PBXGroup;
 			children = (
-				CFD2AF67282D2FE3005CB25E /* PartyRecruitmentApp.swift */,
-				CFD2AF69282D2FE3005CB25E /* ContentView.swift */,
-				CFD2AF6B282D2FE5005CB25E /* Assets.xcassets */,
-				CFD2AF6D282D2FE5005CB25E /* Preview Content */,
-				CFD2AF75282D2FF2005CB25E /* LoginView.swift */,
+				CFDFF1E1283138600019CDB3 /* PartyRecruitmentApp.swift */,
+				CFDFF1E3283138600019CDB3 /* ContentView.swift */,
+				CFDFF1F02831395C0019CDB3 /* GoogleService-Info.plist */,
+				CFDFF1E5283138610019CDB3 /* Assets.xcassets */,
+				CFDFF1E7283138610019CDB3 /* Preview Content */,
+				CFC521932832746D00541F6D /* View */,
 			);
 			path = PartyRecruitment;
 			sourceTree = "<group>";
 		};
-		CFD2AF6D282D2FE5005CB25E /* Preview Content */ = {
+		CFDFF1E7283138610019CDB3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CFD2AF6E282D2FE5005CB25E /* Preview Assets.xcassets */,
+				CFDFF1E8283138610019CDB3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -73,39 +98,48 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CFD2AF63282D2FE3005CB25E /* PartyRecruitment */ = {
+		CFDFF1DD283138600019CDB3 /* PartyRecruitment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFD2AF72282D2FE5005CB25E /* Build configuration list for PBXNativeTarget "PartyRecruitment" */;
+			buildConfigurationList = CFDFF1EC283138610019CDB3 /* Build configuration list for PBXNativeTarget "PartyRecruitment" */;
 			buildPhases = (
-				CFD2AF60282D2FE3005CB25E /* Sources */,
-				CFD2AF61282D2FE3005CB25E /* Frameworks */,
-				CFD2AF62282D2FE3005CB25E /* Resources */,
+				CFDFF1DA283138600019CDB3 /* Sources */,
+				CFDFF1DB283138600019CDB3 /* Frameworks */,
+				CFDFF1DC283138600019CDB3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = PartyRecruitment;
+			packageProductDependencies = (
+				CFC52183283264C600541F6D /* FirebaseAuth */,
+				CFC52185283264C600541F6D /* FirebaseAuthCombine-Community */,
+				CFC52187283264C600541F6D /* FirebaseCrashlytics */,
+				CFC52189283264C600541F6D /* FirebaseDatabase */,
+				CFC5218B283264C600541F6D /* FirebaseFirestore */,
+				CFC5218D283264C600541F6D /* FirebaseMessaging */,
+				CFC5218F283264C600541F6D /* FirebaseStorage */,
+			);
 			productName = PartyRecruitment;
-			productReference = CFD2AF64282D2FE3005CB25E /* PartyRecruitment.app */;
+			productReference = CFDFF1DE283138600019CDB3 /* PartyRecruitment.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CFD2AF5C282D2FE3005CB25E /* Project object */ = {
+		CFDFF1D6283138600019CDB3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					CFD2AF63282D2FE3005CB25E = {
+					CFDFF1DD283138600019CDB3 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = CFD2AF5F282D2FE3005CB25E /* Build configuration list for PBXProject "PartyRecruitment" */;
+			buildConfigurationList = CFDFF1D9283138600019CDB3 /* Build configuration list for PBXProject "PartyRecruitment" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,43 +147,47 @@
 				en,
 				Base,
 			);
-			mainGroup = CFD2AF5B282D2FE3005CB25E;
-			productRefGroup = CFD2AF65282D2FE3005CB25E /* Products */;
+			mainGroup = CFDFF1D5283138600019CDB3;
+			packageReferences = (
+				CFC52182283264C600541F6D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = CFDFF1DF283138600019CDB3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CFD2AF63282D2FE3005CB25E /* PartyRecruitment */,
+				CFDFF1DD283138600019CDB3 /* PartyRecruitment */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CFD2AF62282D2FE3005CB25E /* Resources */ = {
+		CFDFF1DC283138600019CDB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFD2AF6F282D2FE5005CB25E /* Preview Assets.xcassets in Resources */,
-				CFD2AF6C282D2FE5005CB25E /* Assets.xcassets in Resources */,
+				CFDFF1E9283138610019CDB3 /* Preview Assets.xcassets in Resources */,
+				CFDFF1E6283138610019CDB3 /* Assets.xcassets in Resources */,
+				CFDFF1F12831395C0019CDB3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CFD2AF60282D2FE3005CB25E /* Sources */ = {
+		CFDFF1DA283138600019CDB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFD2AF76282D2FF2005CB25E /* LoginView.swift in Sources */,
-				CFD2AF6A282D2FE3005CB25E /* ContentView.swift in Sources */,
-				CFD2AF68282D2FE3005CB25E /* PartyRecruitmentApp.swift in Sources */,
+				CFC521922832746600541F6D /* LoginView.swift in Sources */,
+				CFDFF1E4283138600019CDB3 /* ContentView.swift in Sources */,
+				CFDFF1E2283138600019CDB3 /* PartyRecruitmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CFD2AF70282D2FE5005CB25E /* Debug */ = {
+		CFDFF1EA283138610019CDB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -210,7 +248,7 @@
 			};
 			name = Debug;
 		};
-		CFD2AF71282D2FE5005CB25E /* Release */ = {
+		CFDFF1EB283138610019CDB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -265,7 +303,7 @@
 			};
 			name = Release;
 		};
-		CFD2AF73282D2FE5005CB25E /* Debug */ = {
+		CFDFF1ED283138610019CDB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -294,7 +332,7 @@
 			};
 			name = Debug;
 		};
-		CFD2AF74282D2FE5005CB25E /* Release */ = {
+		CFDFF1EE283138610019CDB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -326,25 +364,74 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CFD2AF5F282D2FE3005CB25E /* Build configuration list for PBXProject "PartyRecruitment" */ = {
+		CFDFF1D9283138600019CDB3 /* Build configuration list for PBXProject "PartyRecruitment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFD2AF70282D2FE5005CB25E /* Debug */,
-				CFD2AF71282D2FE5005CB25E /* Release */,
+				CFDFF1EA283138610019CDB3 /* Debug */,
+				CFDFF1EB283138610019CDB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFD2AF72282D2FE5005CB25E /* Build configuration list for PBXNativeTarget "PartyRecruitment" */ = {
+		CFDFF1EC283138610019CDB3 /* Build configuration list for PBXNativeTarget "PartyRecruitment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFD2AF73282D2FE5005CB25E /* Debug */,
-				CFD2AF74282D2FE5005CB25E /* Release */,
+				CFDFF1ED283138610019CDB3 /* Debug */,
+				CFDFF1EE283138610019CDB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CFC52182283264C600541F6D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CFC52183283264C600541F6D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFC52182283264C600541F6D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CFC52185283264C600541F6D /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFC52182283264C600541F6D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		CFC52187283264C600541F6D /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFC52182283264C600541F6D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		CFC52189283264C600541F6D /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFC52182283264C600541F6D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		CFC5218B283264C600541F6D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFC52182283264C600541F6D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		CFC5218D283264C600541F6D /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFC52182283264C600541F6D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		CFC5218F283264C600541F6D /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFC52182283264C600541F6D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = CFD2AF5C282D2FE3005CB25E /* Project object */;
+	rootObject = CFDFF1D6283138600019CDB3 /* Project object */;
 }

@@ -50,8 +50,27 @@ struct LoginView: View {
                             
                     
                     
-                    HStack {
+            HStack(spacing: 40){
+                        Button(action: {
+                            
+                        }, label: {
+                            Image("logo_google")
+                                .resizable()
+                                .frame(width: 50, height: 50)
+                        })
+                        .frame(width: 60, height: 60)
+                        .background(Circle().stroke(.gray, lineWidth: 1))
                         
+                        Button(action: {
+                            
+                        }, label: {
+                            Image("logo_apple")
+                                .resizable()
+                                .frame(width: 50, height: 50)
+                        })
+                        .frame(width: 60, height: 60)
+                        .background(.black)
+                        .clipShape(Circle())
                     } //HStack
                     
                 } //VStack
