@@ -15,6 +15,7 @@
 		CFC5218E283264C600541F6D /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = CFC5218D283264C600541F6D /* FirebaseMessaging */; };
 		CFC52190283264C600541F6D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CFC5218F283264C600541F6D /* FirebaseStorage */; };
 		CFC521922832746600541F6D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC521912832746600541F6D /* LoginView.swift */; };
+		CFC52195283283CD00541F6D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC52194283283CD00541F6D /* UserModel.swift */; };
 		CFDFF1E2283138600019CDB3 /* PartyRecruitmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFF1E1283138600019CDB3 /* PartyRecruitmentApp.swift */; };
 		CFDFF1E4283138600019CDB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFF1E3283138600019CDB3 /* ContentView.swift */; };
 		CFDFF1E6283138610019CDB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDFF1E5283138610019CDB3 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		CFC521912832746600541F6D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CFC52194283283CD00541F6D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		CFDFF1DE283138600019CDB3 /* PartyRecruitment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyRecruitment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDFF1E1283138600019CDB3 /* PartyRecruitmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyRecruitmentApp.swift; sourceTree = "<group>"; };
 		CFDFF1E3283138600019CDB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		CFC52196283283D100541F6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFC52194283283CD00541F6D /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CFDFF1D5283138600019CDB3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +93,7 @@
 				CFDFF1E5283138610019CDB3 /* Assets.xcassets */,
 				CFDFF1E7283138610019CDB3 /* Preview Content */,
 				CFC521932832746D00541F6D /* View */,
+				CFC52196283283D100541F6D /* Model */,
 			);
 			path = PartyRecruitment;
 			sourceTree = "<group>";
@@ -180,6 +191,7 @@
 			files = (
 				CFC521922832746600541F6D /* LoginView.swift in Sources */,
 				CFDFF1E4283138600019CDB3 /* ContentView.swift in Sources */,
+				CFC52195283283CD00541F6D /* UserModel.swift in Sources */,
 				CFDFF1E2283138600019CDB3 /* PartyRecruitmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
