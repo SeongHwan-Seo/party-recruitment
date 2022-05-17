@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF91D8382833B1F500E7A266 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF91D8372833B1F500E7A266 /* LoginViewModel.swift */; };
 		CFC52184283264C600541F6D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CFC52183283264C600541F6D /* FirebaseAuth */; };
 		CFC52186283264C600541F6D /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CFC52185283264C600541F6D /* FirebaseAuthCombine-Community */; };
 		CFC52188283264C600541F6D /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = CFC52187283264C600541F6D /* FirebaseCrashlytics */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF91D8372833B1F500E7A266 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		CFC521912832746600541F6D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		CFC52194283283CD00541F6D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		CFDFF1DE283138600019CDB3 /* PartyRecruitment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyRecruitment.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF91D8392833B1F900E7A266 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF91D8372833B1F500E7A266 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		CFC521932832746D00541F6D /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 				CFDFF1E7283138610019CDB3 /* Preview Content */,
 				CFC521932832746D00541F6D /* View */,
 				CFC52196283283D100541F6D /* Model */,
+				CF91D8392833B1F900E7A266 /* ViewModel */,
 			);
 			path = PartyRecruitment;
 			sourceTree = "<group>";
@@ -192,6 +203,7 @@
 				CFC521922832746600541F6D /* LoginView.swift in Sources */,
 				CFDFF1E4283138600019CDB3 /* ContentView.swift in Sources */,
 				CFC52195283283CD00541F6D /* UserModel.swift in Sources */,
+				CF91D8382833B1F500E7A266 /* LoginViewModel.swift in Sources */,
 				CFDFF1E2283138600019CDB3 /* PartyRecruitmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

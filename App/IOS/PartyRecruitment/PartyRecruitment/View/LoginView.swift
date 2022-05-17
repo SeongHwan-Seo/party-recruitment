@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State private var email = ""
-    @State private var password = ""
+    @StateObject var viewModel = LoginViewModel()
+    
     var body: some View {
         VStack(spacing: 7.0) {
                     Text("이메일")
                         .frame(maxWidth: .infinity, alignment: .leading)
-                    TextField("이메일을 입력해 주세요.", text: $email)
+            TextField("이메일을 입력해 주세요.", text: $viewModel.email)
                         .frame(height: 40)
                         .disableAutocorrection(true)
                         .autocapitalization(.none)
@@ -22,7 +22,7 @@ struct LoginView: View {
                         .cornerRadius(9)
                     Text("비밀번호")
                         .frame(maxWidth: .infinity, alignment: .leading)
-                    SecureField("비밀번호를 입력해 주세요.", text: $password)
+            SecureField("비밀번호를 입력해 주세요.", text: $viewModel.password)
                         .frame(height: 40)
                         .disableAutocorrection(true)
                         .autocapitalization(.none)
@@ -30,6 +30,7 @@ struct LoginView: View {
                         .cornerRadius(9)
                     
                     Button(action: {
+                        viewModel.withEmailLogin()
                         
                     }, label: {
                         Image(systemName: "mail")
