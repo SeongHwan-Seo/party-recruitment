@@ -8,11 +8,16 @@
 import Foundation
 import SwiftUI
 import FirebaseAuth
+import Firebase
+import GoogleSignIn
 
 class LoginViewModel: ObservableObject {
     @Published var email = ""
     @Published var password = ""
     @Published var isValid = false
+    
+
+    
     
     func withEmailLogin() {
         //Firebase SignInEmailLogin
@@ -61,6 +66,45 @@ class LoginViewModel: ObservableObject {
                 
             }
             
+        }
+    }
+    
+    //구글 로그인
+    func signUpWithGoogle() {
+        
+        
+        //get app client id
+        guard let clientId = FirebaseApp.app()?.options.clientID else { return }
+        
+        //get configuration
+        let config = GIDConfiguration(clientID: clientId)
+        
+        //signIn
+        
+        GIDSignIn.sharedInstance.signIn(with: config, presenting: ApplicationUtility.rootViewContriller) {
+            [self] user, err in
+            
+            if let error = err {
+                print(error.localizedDescription)
+            }
+            
+            guard let authentication = user?.authentication,
+                  let idToken = authentication.idToken
+            else { return }
+            
+            let credential = GoogleAuthProvider.credential(withIDToken: idToken, accessToken: authentication.accessToken)
+            
+            Auth.auth().signIn(with: credential) { result, error in
+                if let err = error {
+                    print(err.localizedDescription)
+                    return
+                }
+                
+                guard let user = result?.user else { return }
+                print(user.displayName)
+                print(user.email)
+                print("성공")
+            }
         }
     }
 }
